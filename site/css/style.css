@@ -1,23 +1,80 @@
 body{
     margin: 16px;
     font-size: 16px;
+    background-image: url("../img/back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 h1{
+    font-family: "roboto";
+    color: lightgrey;
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
 }
 
-main p{
-    margin: 8px;
-    padding: 2px;
-    border: solid black;
-    font-weight: 100;
-}
-
-main :nth-child(1)
+section p
 {
-
-    color: red;
+    color: grey;
+    font-family: "roboto";
+    text-align: center;
 }
+
+h2
+{
+    font-family: "Comic Neue";
+    color: greenyellow;
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+main p{
+    font-family: "Comic Neue";
+    margin-top: 20px;
+    padding: 10px;
+    border:dotted greenyellow;
+    border-width: 2px;
+}
+
+#one{
+    color: rgba(0, 255, 255);
+}
+#two{
+    color: rgba(0, 255, 225);
+}
+
+#three{
+    color: rgba(0, 255, 200);
+}
+
+#four{
+    color: rgba(0, 255, 175);
+}
+
+#five{
+    color: rgba(0, 255, 150);
+}
+#six{
+    color: rgb(0, 255, 125);
+}
+
+#seven{
+    color: rgba(0, 255, 100);
+}
+
+#eight{
+    color: rgba(0, 255, 75);
+}
+
+#nine{
+    color: rgba(0, 255, 50);
+}
+
+#ten{
+    color: rgba(0, 255, 0);
+}
+
+
